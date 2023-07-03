@@ -1,6 +1,6 @@
-# Facemash like it is in The Social Network
+# Facemash (The Social Network)
 
-Made some modifications and it is made with Flask in the backend and React in the frontend.
+Made some modifications and it is made with Flask for the backend and React for the frontend.
 
 # Database
 
