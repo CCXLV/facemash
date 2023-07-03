@@ -1,0 +1,14 @@
+{% extends 'layout.html' %}
+
+{% block head %}
+
+    <title>Submit</title>
+
+{% endblock %}
+
+{% block body %} 
+
+    <div id="main-container"></div>
+    <script src="{{ url_for('serve_static', filename='submit.js') }}"></script>
+
+{% endblock %}
