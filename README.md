@@ -4,4 +4,4 @@ Made some modifications and it is made with Flask for the backend and React for 
 
 # Database
 
-I am using MySQL database to store images, ratings and more (you can see the table structure in the /src/db/schema.sql).
+I am using MySQL database to store images, ratings and more (you can see the table structure in the `/src/db/schema.sql`).
