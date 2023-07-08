@@ -6,8 +6,12 @@ from flask import render_template, send_from_directory, request, jsonify
 from models import (
     app, db, Images, filter_all_images, 
     update_ratings, image_ratings,
-    image_uid_filter, db_update_rating
+    image_uid_filter, db_update_rating,
+    filter_rating_needs
 )
+
+with app.app_context():
+    image_ratings = filter_rating_needs()
 
 @app.after_request
 def add_cache_control_headers(response):
